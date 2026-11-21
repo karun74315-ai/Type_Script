@@ -33,4 +33,10 @@ e = true;
 
 let f: void = undefined;
 
-//
+// interface
+
+interface Person {
+    name: string;
+    age: number;
+}
+
