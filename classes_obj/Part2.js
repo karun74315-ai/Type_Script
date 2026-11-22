@@ -16,4 +16,13 @@ class ab {
         this.name;
     }
 }
+// access Modifier 
+class count {
+    name;
+    constructor(name) {
+        this.name = name;
+    }
+}
+let c1 = new count("Ab");
+c1.name = "kh";
 //# sourceMappingURL=Part2.js.map

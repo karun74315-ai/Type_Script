@@ -15,3 +15,14 @@ class ab{
         this.name 
     }
 }
+
+// access Modifier 
+
+class count{
+    constructor(public name : string){
+
+    }
+}
+
+let c1 = new count("Ab");
+c1.name = "kh";
