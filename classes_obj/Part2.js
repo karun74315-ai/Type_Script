@@ -25,4 +25,26 @@ class count {
 }
 let c1 = new count("Ab");
 c1.name = "kh";
+//Protected Access modifier
+class cb {
+    name = "bb";
+}
+class bn extends cb {
+    met = " mt";
+    constructo() {
+        this.name = "new";
+    }
+}
+let nm = new bn();
+// optional properties
+class NAme {
+    name;
+    constructor(name) {
+        this.name = name;
+    }
+    ch() {
+        this.name = " kh";
+    }
+}
+let hj = new NAme("ll");
 //# sourceMappingURL=Part2.js.map
