@@ -47,4 +47,39 @@ class NAme {
     }
 }
 let hj = new NAme("ll");
+// gettter Setters
+class Name {
+    _name;
+    constructor(_name) {
+        this._name = _name;
+    }
+    get name() {
+        return this._name;
+    }
+    setname(name) {
+        this._name = name;
+    }
+}
+let n1 = new Name("us");
+n1.name;
+//static properties and methods
+class Name1 {
+    version = "1.0";
+    static getVersion() {
+        return Math.random();
+    }
+}
+//Abstract classes
+class payment {
+    amount;
+    constructor(amount) {}
+    getAmount(amount) {
+        return this.amount > 0;
+    }
+}
+
+class credit extends payment {
+    
+}
+
 //# sourceMappingURL=Part2.js.map

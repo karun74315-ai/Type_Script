@@ -59,3 +59,46 @@ class NAme{
 }
 
 let hj = new NAme("ll");
+
+// gettter Setters
+
+
+
+class Name{
+    constructor(private _name : string){    
+    }
+    get name(){
+        return this._name;
+    }
+    setname(name : string){
+        this._name = name;
+    }  
+
+}
+
+let n1 = new Name("us");
+
+n1.name; 
+
+
+//static properties and methods
+
+class Name1{
+   version : string = "1.0";    
+   static getVersion(){
+    return Math.random();
+   }
+}
+
+//Abstract classes
+ 
+
+class payment{
+
+    constructor(protected amount : number){}
+
+    getAmount( amount : number){
+        return this.amount > 0;
+    }
+}
+
