@@ -15,3 +15,22 @@ abs("arun", (value)=>{
 
  ab("arun", 23, "male")
  ab("arun", 23)
+
+
+ //Rest parameters
+
+ function abc(name:string, ...hobbies:string[]){
+     console.log(name);
+     console.log(hobbies);
+ }
+ abc("arun", "reading", "swimming", "coding"); 
+
+ //function overloading
+
+ // function signature
+ function add(a:number, b:number):number;
+ function add(a:string, b:string):string;
+
+ function add(a:any, b:any):any{
+     return a + b;
+ }  

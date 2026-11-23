@@ -7,8 +7,17 @@ abs("arun", (value) => {
     console.log(value);
 });
 //optional and default parameters
-function ab(name, age, gender = "cant tell") {l") {
+function ab(name, age, gender = "cant tell") {
 }
 ab("arun", 23, "male");
 ab("arun", 23);
+//Rest parameters
+function abc(name, ...hobbies) {
+    console.log(name);
+    console.log(hobbies);
+}
+abc("arun", "reading", "swimming", "coding");
+function add(a, b) {
+    return a + b;
+}
 //# sourceMappingURL=fnc.js.map
