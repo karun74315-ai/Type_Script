@@ -72,14 +72,11 @@ class Name1 {
 //Abstract classes
 class payment {
     amount;
-    constructor(amount) {}
+    constructor(amount) {
+        this.amount = amount;
+    }
     getAmount(amount) {
         return this.amount > 0;
     }
 }
-
-class credit extends payment {
-    
-}
-
 //# sourceMappingURL=Part2.js.map
