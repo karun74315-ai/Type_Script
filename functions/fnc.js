@@ -38,4 +38,24 @@ class bottleMaker {
     }
 }
 let b1 = new bottleMaker("hey");
+// modules 
+// Type Assertions
+let a = 12;
+a.toString(a);
+// type casting
+let aa = Number("12");
+console.log(typeof a);
+//non-null Assertion
+let h;
+h = "hey";
+h.at;
+// type Gaurds
+function hh(args) {
+    if (typeof args === "string") {
+        return " str";
+    }
+    else if (typeof args === "number") {
+        return " num ";
+    }
+}
 //# sourceMappingURL=fnc.js.map

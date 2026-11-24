@@ -78,3 +78,40 @@ class bottleMaker<T> {
 }
 
 let b1 = new bottleMaker<string>("hey");
+
+// modules 
+
+
+// Type Assertions
+
+let a : any =  12;
+
+(a as number).toString
+
+(<number>a);
+
+// type casting
+
+
+let aa = Number("12");
+console.log(typeof a);
+
+//non-null Assertion
+
+let h: null| undefined | string;
+
+h = "hey";
+h!.at
+
+
+
+// type Gaurds
+
+function hh(args : string | number){
+    if(typeof args === "string"){
+      return " str";
+    }
+    else if(typeof args === "number"){
+        return " num ";
+    }
+}
