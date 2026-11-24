@@ -34,3 +34,25 @@ abs("arun", (value)=>{
  function add(a:any, b:any):any{
      return a + b;
  }  
+
+
+ //Generics 
+
+// function Generics
+
+function test <T>(a:T){}
+
+test<string>("aa")
+
+function log<Y>(val:Y){
+    console.log(val);
+    
+}
+
+log<string>("hey");
+log(12);
+
+
+//Generics Interface 
+
+

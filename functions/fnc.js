@@ -20,4 +20,14 @@ abc("arun", "reading", "swimming", "coding");
 function add(a, b) {
     return a + b;
 }
+//Generics 
+// function Generics
+function test(a) { }
+test("aa");
+function log(val) {
+    console.log(val);
+}
+log("hey");
+log(12);
+//Generics Interface 
 //# sourceMappingURL=fnc.js.map
