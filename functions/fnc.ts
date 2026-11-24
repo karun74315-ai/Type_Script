@@ -55,4 +55,26 @@ log(12);
 
 //Generics Interface 
 
+interface halue <T>{
+    name : string;
+    age : number;
+    key : T;
 
+}
+
+function bb(ob:halue<string>){
+  
+}
+
+bb({name : " Arun ", age : 23, key: "dsjlfkh"});
+
+
+//Generics Classes
+
+class bottleMaker<T> {
+   constructor(key:T){
+
+   }
+}
+
+let b1 = new bottleMaker<string>("hey");

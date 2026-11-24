@@ -29,5 +29,13 @@ function log(val) {
 }
 log("hey");
 log(12);
-//Generics Interface 
+function bb(ob) {
+}
+bb({ name: " Arun ", age: 23, key: "dsjlfkh" });
+//Generics Classes
+class bottleMaker {
+    constructor(key) {
+    }
+}
+let b1 = new bottleMaker("hey");
 //# sourceMappingURL=fnc.js.map
